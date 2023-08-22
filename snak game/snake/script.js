@@ -1,7 +1,5 @@
 const playBoard = document.querySelector(".play-board");
 const controls = document.querySelectorAll(".controls i");
-//const score = document.querySelector(".score");
-//const highScore = document.querySelector(".high-score");
 
 let createSnake, createFood;
 let foodX, foodY;
@@ -92,5 +90,3 @@ const createElement = () => {
 
 changeFoodPosition();
 setIntervalId=setInterval(createElement, 125);
-
-
